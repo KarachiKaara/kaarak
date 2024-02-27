@@ -3,6 +3,7 @@
     height: 62px;
     padding: 3px 10px 3px 10px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     background-color: #131A22;
 }
@@ -61,7 +62,7 @@
     background-color: white;
     border-radius: 5px;
     margin-left: 10px;
-    margin-right: 10px;
+    margin-right: 15px;
     display: flex;
     justify-content: space-between;
 }
@@ -80,6 +81,11 @@
 .Header_lv3-Search{
     width: 732px;
 }
+
+
+
+
+
 .Header_lv3-All{
     width: 53px;
     max-height: inherit;
@@ -90,7 +96,21 @@
     display: flex;
     justify-content: center;
     gap: 8px;
+    position: relative;
 }
+.Header_lv3-All-Oxshasin{
+    resize: none;
+    display: none;
+    top: 35px;
+    left: 2px;
+    width: 175px;
+    height: 250px;
+    position: absolute;
+}
+.Header_lv3-All:active > .Header_lv3-All-Oxshasin{
+    display: inline;
+}
+
 .Header_lv3-All-text{
    font-size: 12px;
    font-weight: 400;
@@ -159,6 +179,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: relative;
 }
 .Header_lv5:hover{
     border: 1px solid white;
@@ -236,4 +257,126 @@
     font-size: 14px;
     font-weight: 700;
     text-align: end;
+}
+
+
+
+
+
+
+
+
+
+.Header_lv5:hover > .RozmatAka_Kaara_collab-sign{
+    display: inline;
+}
+.RozmatAka_Kaara_collab-sign{
+    width: 500px;
+    height: 380px;
+    background-color: white;
+    border-radius: 3px;
+    position: absolute;
+    display: none;
+    top: 57px;
+    right: -68px;
+
+}
+.RozmatAka_Kaara_collab-sign-top{
+    width: 100%;
+    height: 85px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    align-items: center;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+.RozmatAka_Kaara_collab-sign-top-btn{
+    width: 225px;
+    height: 35px;
+    background-color: #ffd11a;
+    margin-top: 18px;
+    margin-bottom: 7px;
+    border-radius: 10px;
+    border: 0px;
+    font-size: 12px;
+    font-weight: 400;
+
+}
+.RozmatAka_Kaara_collab-sign-top-btn:hover{
+    text-decoration: underline solid rgb(255, 115, 27);
+}
+.RozmatAka_Kaara_collab-sign-top-Nega{
+   width: 17px;
+   height: 17px;
+   background-color: white;
+   position: absolute;
+   transform: rotate(45deg);
+   right: 75px;
+   bottom: 75px;
+
+
+}
+.RozmatAka_Kaara_collab-sign-top-wrapper{
+    display: flex;
+    background-color: white;
+    gap: 3px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3px;
+
+
+}
+.RozmatAka_Kaara_collab-sign-top-wrapper-text{
+    background-color: white;
+    font-size: 11px;
+    font-weight: 400;
+}
+.RozmatAka_Kaara_collab-sign-top-wrapper-link{
+    text-decoration: none;
+    background-color: white;
+}
+.RozmatAka_Kaara_collab-sign-top-wrapper-link-text{
+    font-size: 12px;
+    color: black;
+    background-color: white;
+    font-weight: 400;
+}
+.RozmatAka_Kaara_collab-sign-top-wrapper-link-text:hover{
+   color: orange;
+   text-decoration: underline solid orange;
+}
+.RozmatAka_Kaara_collab-sign_bottom{
+    display: flex;
+    flex-direction: row;
+}
+.RozmatAka_Kaara_collab-sign_bottom-right{
+  width: 250px;
+  height: 295px;
+  background: white;
+  padding-left: 10px;
+  padding-top: 5px;
+  border-left: 1px solid rgba(0, 0, 0, 0.3);
+}
+.RozmatAka_Kaara_collab-sign_bottom-right-text{
+    margin-bottom: 3px;
+    background-color: white;
+}
+.RozmatAka_Kaara_collab-sign_bottom-right-text:hover{
+    color: orange;
+    text-decoration: underline solid orange;
+}
+.RozmatAka_Kaara_collab-sign_bottom-right-h1{
+    background-color: white;
+    font-size: 24px;
+    margin-bottom: 7px;
+}
+.RozmatAka_Kaara_collab-sign_bottom-left{
+    width: 250px;
+    height: 295px;
+    padding-left: 15px;
+    padding-top: 5px;
+    background: white;
 }

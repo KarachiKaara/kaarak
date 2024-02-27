@@ -27,6 +27,9 @@ export default function Header() {
         <div className='Header_lv3-All'>
             <p className='Header_lv3-All-text'>All</p>
             <img  className='Header_lv3-All-img' src={Gray} alt="not info" />
+            <textarea className='Header_lv3-All-Oxshasin' name="" id="" cols="30" rows="10">
+                <p>All Departments</p>
+            </textarea>
         </div>
         <div className='Header_lv3-Search'><input className='Header_lv3-Search-text' type="text" placeholder='Search Amazon'/></div>
         <div className='Header_lv3-Camera'>
@@ -45,6 +48,38 @@ export default function Header() {
        <div className='Header_lv5'>
         <p className='Header_lv5-sign'>Hello, Sign in</p>
         <p className='Header_lv5-acount'>Acount & Listes <img className='Header_lv5-acount-img' src={Gray} alt="not info" /></p>
+            <div class="RozmatAka_Kaara_collab-sign">
+            <div class="RozmatAka_Kaara_collab-sign-top">
+                <div class="RozmatAka_Kaara_collab-sign-top-Nega"></div>
+                <button class="RozmatAka_Kaara_collab-sign-top-btn">Sign in</button>
+                <div class="RozmatAka_Kaara_collab-sign-top-wrapper">
+                    <p class="RozmatAka_Kaara_collab-sign-top-wrapper-text">New coustumer?</p>
+                    <a class="RozmatAka_Kaara_collab-sign-top-wrapper-link" href="https://www.youtube.com/@KarachiKaara">
+                        <p class="RozmatAka_Kaara_collab-sign-top-wrapper-link-text">Start here.</p>
+                    </a>
+                </div>
+            </div>
+            <div class="RozmatAka_Kaara_collab-sign_bottom">
+                <div class="RozmatAka_Kaara_collab-sign_bottom-left">
+                    <h1 class="RozmatAka_Kaara_collab-sign_bottom-right-h1">Your listes</h1>
+                    <p class="RozmatAka_Kaara_collab-sign_bottom-right-text">Create a list</p>
+                    <p class="RozmatAka_Kaara_collab-sign_bottom-right-text">Find a List or Registy</p>
+                </div>
+                <div class="RozmatAka_Kaara_collab-sign_bottom-right">
+                    <h1 class="RozmatAka_Kaara_collab-sign_bottom-right-h1">Your Account</h1>
+                    <p class="RozmatAka_Kaara_collab-sign_bottom-right-text">Account</p>
+                    <p class="RozmatAka_Kaara_collab-sign_bottom-right-text">Orders</p>
+                    <p class="RozmatAka_Kaara_collab-sign_bottom-right-text">Recommendations</p>
+                    <p class="RozmatAka_Kaara_collab-sign_bottom-right-text">Browsing History</p>
+                    <p class="RozmatAka_Kaara_collab-sign_bottom-right-text">Watchlist</p>
+                    <p class="RozmatAka_Kaara_collab-sign_bottom-right-text">Video Purchases & Rentals</p>
+                    <p class="RozmatAka_Kaara_collab-sign_bottom-right-text">Kindle Unlimited</p>
+                    <p class="RozmatAka_Kaara_collab-sign_bottom-right-text">Content & Devices</p>
+                    <p class="RozmatAka_Kaara_collab-sign_bottom-right-text">Subscribe & Save Items</p>
+                    <p class="RozmatAka_Kaara_collab-sign_bottom-right-text">Memberships & Subscriptions</p>
+                </div>
+            </div>
+        </div>
        </div>
        <div className='Header_lv6'>
             <p className='Header_lv6-text'>Returns</p>
