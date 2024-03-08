@@ -203,6 +203,9 @@
     transform: rotate(180deg);
    
 }
+.Header_lv6_Rozmat_Sila{
+    text-decoration: none;
+}
 
 
 
@@ -379,4 +382,121 @@
     padding-left: 15px;
     padding-top: 5px;
     background: white;
+}
+
+
+
+
+
+
+.RozmatCity_div{
+    max-width: 100%;
+    height: 37px;
+    background-color: #232F3e;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.RozmatCity_div_Gitarani{
+    display: flex;
+
+}
+.RozmatCity_div_Gitarani-aytmagan1{
+    list-style: none;
+    color: white;
+    display: flex;
+    font-weight: 11px;
+    font-weight: 400;
+    width: 60px;
+    height: 36px;
+    align-items: center;
+    justify-content: center;
+}
+.RozmatCity_div_Gitarani-aytmagan2{
+    list-style: none;
+    color: white;
+    display: flex;
+    font-weight: 11px;
+    font-weight: 400;
+    width: 108px;
+    height: 36px;
+    align-items: center;
+    justify-content: center;
+}
+.RozmatCity_div_Gitarani-aytmagan3{
+    list-style: none;
+    color: white;
+    display: flex;
+    font-weight: 11px;
+    font-weight: 400;
+    width: 133px;
+    height: 36px;
+    align-items: center;
+    justify-content: center;
+}
+.RozmatCity_div_Gitarani-aytmagan4{
+    list-style: none;
+    color: white;
+    display: flex;
+    font-weight: 11px;
+    font-weight: 400;
+    width: 70px;
+    height: 36px;
+    align-items: center;
+    justify-content: center;
+}
+.RozmatCity_div_Gitarani-aytmagan5{
+    list-style: none;
+    color: white;
+    display: flex;
+    font-weight: 11px;
+    font-weight: 400;
+    width: 80px;
+    height: 36px;
+    align-items: center;
+    justify-content: center;
+}
+.RozmatCity_div_Gitarani-aytmagan6{
+    list-style: none;
+    color: white;
+    display: flex;
+    font-weight: 11px;
+    font-weight: 400;
+    width: 46px;
+    height: 36px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.RozmatCity_div_Gitarani-aytmagan1:hover{
+    border: 1px solid white;
+    border-radius: 1px;
+}
+.RozmatCity_div_Gitarani-aytmagan2:hover{
+    border: 1px solid white;
+    border-radius: 1px;
+}
+.RozmatCity_div_Gitarani-aytmagan3:hover{
+    border: 1px solid white;
+    border-radius: 1px;
+}
+.RozmatCity_div_Gitarani-aytmagan4:hover{
+    border: 1px solid white;
+    border-radius: 1px;
+}
+.RozmatCity_div_Gitarani-aytmagan5:hover{
+    border: 1px solid white;
+    border-radius: 1px;
+}
+.RozmatCity_div_Gitarani-aytmagan6:hover{
+    border: 1px solid white;
+    border-radius: 1px;
+}
+.RozmatCity_div_Gitarani-aytmagan1-Rozmatchik{
+    width: 20px;
+    height: 20px;
+}
+.Rozmat_Aka_Sila{
+    text-decoration: none;
 }

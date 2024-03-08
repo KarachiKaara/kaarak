@@ -1,13 +1,12 @@
 import './App.css'
-import Header from './pages/Header';
+import { Outlet, RouterProvider } from "react-router-dom"
+import { RozmatAka } from './RozmatAka';
 
 function App() {
   return (
     <>
-    <Header/>
-    
-
-
+      <RouterProvider router={RozmatAka}/>
+      <Outlet/>
     </>
   );
 }

@@ -1,3 +1,4 @@
+import { Link, Outlet} from "react-router-dom"
 import React from 'react'
 import './Header.css'
 import Icon from './images/icon.png'
@@ -7,14 +8,16 @@ import BoshOgrigi from './images/BoshOgrigi.png'
 import Search from './images/search.png'
 import Camera from './images/Camera.png'
 import Locatsion from './images/locatsion.png'
+import Rozmatchik from './images/Rozmatchik.png'
 
 export default function Header() {
   return (
+    <>
     <header className='Header'>
         <button className='Header_lv1'>
-            <a href=".">
+            <Link to="/DiplomKKKKemas">
                 <img className='Header_lv1-img' src={Icon} alt="not info" />
-            </a>
+            </Link>
         </button>
        <div className='Header_lv2'>
         <img className='Header_lv2-img' src={Locatsion} alt="not info" />
@@ -46,8 +49,8 @@ export default function Header() {
            </p>
        </div>      
        <div className='Header_lv5'>
-        <p className='Header_lv5-sign'>Hello, Sign in</p>
-        <p className='Header_lv5-acount'>Acount & Listes <img className='Header_lv5-acount-img' src={Gray} alt="not info" /></p>
+           <p className='Header_lv5-sign'>Hello, Sign in</p>
+           <p className='Header_lv5-acount'>Acount & Listes <img className='Header_lv5-acount-img' src={Gray} alt="not info" /></p>
             <div class="RozmatAka_Kaara_collab-sign">
             <div class="RozmatAka_Kaara_collab-sign-top">
                 <div class="RozmatAka_Kaara_collab-sign-top-Nega"></div>
@@ -82,8 +85,10 @@ export default function Header() {
         </div>
        </div>
        <div className='Header_lv6'>
+         <a className="Header_lv6_Rozmat_Sila" href="https://www.amazon.com/ap/signin?_encoding=UTF8&accountStatusPolicy=P1&openid.assoc_handle=usflex&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fgp%2Fcss%2Forder-history%3Fie%3DUTF8%26ref_%3Dnav_orders_first&pageId=webcs-yourorder&showRmrMe=1">
             <p className='Header_lv6-text'>Returns</p>
             <p className='Header_lv6-text2'>& Orders</p>
+            </a>
        </div>
        <div className='Header_lv7'>
             <p className='Header_lv7-raqam'>0</p>
@@ -92,5 +97,28 @@ export default function Header() {
        </div>
 
     </header>
+    <div className='RozmatCity_div'>
+        <ul className='RozmatCity_div_Gitarani'>
+                <li className='RozmatCity_div_Gitarani-aytmagan1'> <img className="RozmatCity_div_Gitarani-aytmagan1-Rozmatchik" src={Rozmatchik} alt="not info" />All</li>
+            <Link className="Rozmat_Aka_Sila" to='/Manbirinchi'>
+                <li className='RozmatCity_div_Gitarani-aytmagan2'>Today's Deals</li>
+            </Link>
+            <Link className="Rozmat_Aka_Sila" to='/Olamanmidipni'>
+                <li className='RozmatCity_div_Gitarani-aytmagan3'>Customer Service</li>
+            </Link>
+            <Link className="Rozmat_Aka_Sila" to='/Qolizdan'>
+            <li className='RozmatCity_div_Gitarani-aytmagan4'>Registry</li>
+            </Link>
+            <Link className="Rozmat_Aka_Sila" to='/Omonatizni'>
+            <li className='RozmatCity_div_Gitarani-aytmagan5'>Gift Cards</li>
+            </Link>
+            <Link className="Rozmat_Aka_Sila" to='/Olasiz'>
+            <li className='RozmatCity_div_Gitarani-aytmagan6'>Sell</li>
+            </Link>
+        </ul>
+    </div>
+    <Outlet/>
+   
+    </>
   )
 }
