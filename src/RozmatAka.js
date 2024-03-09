@@ -1,6 +1,6 @@
-import { createBrowserRouter} from "react-router-dom";
+import {createBrowserRouter} from "react-router-dom";
 import Header from "./pages/Header";
-import RozmatJon from "./pages/RozmatJon";
+import RozmatJon from "./pages/RozmatJon/RozmatJon";
 import DiplomKKKKemas from "./pages/Rozmat_City/Rozmat_Akami_Presi/DiplomKKKKemas";
 import Manbirinchi from "./pages/Rozmat_City/Rozmat_Akami_Presi/Manbirinchi";
 import Olamanmidipni from "./pages/Rozmat_City/Rozmat_Akami_Presi/Olamanmidipni";
